@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    display: block;
+    text-align: center;    
+    
+}
+
+.buttons{
+    font-size: 2em;
+    margin: 4px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+#countlabel{
+    display: block;
+    font-size: 10em;
+    text-align: center;
+    color: white;
+}
+
+:hover.buttons{
+    background-color: rgb(255, 0, 0) ;
+    transition: 0.3s;
+    color: black;
+}
